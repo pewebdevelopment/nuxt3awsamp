@@ -2,9 +2,13 @@
 export default defineNuxtConfig({
   css: ["@/assets/css/main.css"],
 
+  plugins: [
+    { src: '~/plugins/amplify.js', mode: 'client' }
+  ],
+
   buildModules: [
    
-    // ...
+    
   ],
 
   build: {
