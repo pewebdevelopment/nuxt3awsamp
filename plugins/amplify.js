@@ -5,9 +5,9 @@ import { defineNuxtPlugin } from '#app';
 import { useRuntimeConfig } from '#imports';
 import { AmplifyPlugin } from 'aws-amplify-vue'
 
-import aws_exports from "@/aws-exports";
+import awsExports from "@/aws-exports";
 
-Amplify.configure(aws_exports);
+Amplify.configure(awsExports);
 
 // export default defineNuxtPlugin(() => {
 //     const config = useRuntimeConfig();
