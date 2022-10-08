@@ -15,6 +15,11 @@ export default defineNuxtPlugin(() => {
 
     Amplify.configure(awsExports);
 
+
+
+    // Following configuration is usually present in the aws-exports.js file that is auto generatd after amplify push 
+
+
     // Amplify.configure({
     //     aws_project_region: 'ap-south-1',
     //     aws_cognito_region: 'ap-south-1',
